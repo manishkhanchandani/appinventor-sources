@@ -5,9 +5,6 @@
 
 package com.google.appinventor.components.runtime;
 
-import android.content.Intent;
-import android.net.Uri;
-import android.webkit.MimeTypeMap;
 import com.google.appinventor.components.annotations.DesignerComponent;
 import com.google.appinventor.components.annotations.SimpleFunction;
 import com.google.appinventor.components.annotations.SimpleObject;
@@ -15,8 +12,6 @@ import com.google.appinventor.components.annotations.UsesPermissions;
 import com.google.appinventor.components.annotations.AndroidManifestXML;
 import com.google.appinventor.components.common.ComponentCategory;
 import com.google.appinventor.components.common.YaVersion;
-import com.google.appinventor.components.runtime.util.ErrorMessages;
-
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.app.Activity;
@@ -26,7 +21,7 @@ import android.app.Activity;
  * Component for sharing files and/or messages through Android's built-in sharing
  * functionality.
  *
- * @author victsou@gmail.com (Victor Silva) - Picked up on @cfromknecht's work
+ * @author manishkk74@gmail.com (Manish Khanchandani)
  * and fixed file support.
  */
 @DesignerComponent(version = YaVersion.SHARING_COMPONENT_VERSION,
