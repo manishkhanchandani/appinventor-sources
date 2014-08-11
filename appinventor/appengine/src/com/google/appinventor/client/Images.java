@@ -327,6 +327,12 @@ public interface Images extends Resources {
   ImageResource twitterComponent();
 
   /**
+   * Designer palette item: Utilities Component
+   */
+  @Source("com/google/appinventor/images/utilities.png")
+  ImageResource utilitiesComponent();
+
+  /**
    * Designer palette item: TimePicker Component
    */
   @Source("com/google/appinventor/images/timePicker.png")
